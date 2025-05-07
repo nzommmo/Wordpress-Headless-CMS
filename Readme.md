@@ -82,10 +82,10 @@ GET http://localhost/your-wp-folder/wp-json/wp/v2/posts
 ##### 1.Get JWT Token:
  POST http://localhost/your-wp-folder/wp-json/jwt-auth/v1/token
 Content-Type: application/json
-```json {
+```json 
   "username": "your_admin_username",
   "password": "your_password"
-}
+
 ```
 
 ##### 1.Use Token in Requests:
