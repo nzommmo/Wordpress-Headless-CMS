@@ -1,4 +1,4 @@
-# � Headless CMS: WordPress + React
+# 🧩 Headless CMS: WordPress + React
 
 This project demonstrates how to build a **headless CMS** using **WordPress as the backend** and **React (with Vite) as the frontend**. Content is managed entirely in WordPress and consumed via the WordPress REST API in a React-based landing page.
 
