@@ -91,8 +91,9 @@ Content-Type: application/json
 ```
 
 ##### 1.Use Token in Requests:
-```http GET http://localhost/your-wp-folder/
-wp-json/wp/v2/posts
+GET http://localhost/your-wp-folder/
+
+```http wp-json/wp/v2/posts
 Authorization: Bearer YOUR_TOKEN_HERE 
 ```
 
