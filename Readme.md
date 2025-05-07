@@ -1,3 +1,4 @@
+![alt text](image.png)
 # 🧩 Headless CMS: WordPress + React
 
 This project demonstrates how to build a **headless CMS** using **WordPress as the backend** and **React (with Vite) as the frontend**. Content is managed entirely in WordPress and consumed via the WordPress REST API in a React-based landing page.
@@ -89,7 +90,8 @@ Content-Type: application/json
 ```
 
 ##### 1.Use Token in Requests:
-```http GET http://localhost/your-wp-folder/wp-json/wp/v2/posts
+```http GET http://localhost/your-wp-folder/
+wp-json/wp/v2/posts
 Authorization: Bearer YOUR_TOKEN_HERE 
 ```
 
